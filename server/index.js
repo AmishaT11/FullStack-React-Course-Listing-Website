@@ -16,7 +16,7 @@ connectDB();
 //   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 //   credentials: "true",
 //   optionsSuccessStatus: 204,
-// };zz
+// };
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: "true" }));
